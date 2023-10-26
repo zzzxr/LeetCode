@@ -6,7 +6,6 @@ package main
 
 二叉树的 最大深度 是指从根节点到最远叶子节点的最长路径上的节点数。
 */
-var sum, index int
 
 func maxDepth(root *TreeNode) int {
 	if root == nil {
